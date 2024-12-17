@@ -8,6 +8,10 @@ import { store } from './Store/Store'
 import { Toaster } from 'react-hot-toast'
 import { ToastContainer } from 'react-toastify'
 import routes from './routes'
+// import 'primereact/resources/themes/lara-light-indigo/theme.css'
+// import 'primereact/resources/primereact.min.css'
+import 'primeicons/primeicons.css'
+
 import { useRoutes } from 'react-router-dom'
 
 const queryClient = new QueryClient()
